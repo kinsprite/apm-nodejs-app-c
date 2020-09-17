@@ -1,9 +1,12 @@
 {
-  "name": "apm-app-a",
+  "name": "apm-nodejs-app-a",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "axios": "^0.20.0",
     "elastic-apm-node": "^3.7.0",
